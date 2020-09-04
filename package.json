@@ -1,0 +1,23 @@
+{
+  "name": "kms-decrypt",
+  "version": "1.0.0",
+  "description": "utility to decrypt kms keys and pipe the output into ansible vault.",
+  "main": "index.js",
+  "scripts": {
+    "start": "dist/index.js",
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher Brewin",
+  "license": "ISC",
+  "dependencies": {
+    "ansible-vault": "^1.0.1",
+    "aws-sdk": "^2.746.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
